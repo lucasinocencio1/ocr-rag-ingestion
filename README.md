@@ -2,6 +2,8 @@
 
 FastAPI service that indexes PDFs and images (OCR via Tesseract when needed) and answers questions over them using OpenAI embeddings and a vector store. Supports PostgreSQL/pgvector or Chroma (local fallback).
 
+![RAG Architecture](assets/architecture_RAG.gif)
+
 ## Requirements
 
 - Python 3.10+
