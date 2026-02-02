@@ -1,0 +1,40 @@
+# Local vector store (SQLite/Chroma fallback)
+.data/
+
+# Venv
+venv/
+.venv/
+env/
+
+# Env
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+*.pyc
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+db/
+*db/
+
+
+data/*.csv
+.DS_Store
+.env
+DS_Store
+.log
+.txt
+*.txt
+*.log
+*.csv
+*.pdf
